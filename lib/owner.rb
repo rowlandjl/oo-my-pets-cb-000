@@ -42,4 +42,13 @@ class Owner
     Dog.new(name, self)
   end 
   
+  def walk_dogs 
+  end 
+  
+  def feed_cats 
+  end 
+  
+  def sell_pets 
+  end 
+  
 end
