@@ -12,6 +12,7 @@ class Dog
     @name = name 
     @owner = owner 
     @mood = "nervous"
+    self.class.all << self 
   end 
   
 end
