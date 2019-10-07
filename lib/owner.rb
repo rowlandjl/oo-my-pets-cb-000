@@ -26,6 +26,7 @@ class Owner
   end 
   
   def cats 
+    Cat.all.select {
   end 
   
   def dogs 
